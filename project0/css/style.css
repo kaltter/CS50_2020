@@ -1,0 +1,57 @@
+.content h5::before, .content span::after {
+  font-weight: bold;
+  text-decoration: underline; }
+
+body {
+  font-family: sans-serif; }
+
+.main {
+  max-width: 1140px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto; }
+
+#logo1 {
+  width: 100%;
+  padding: 5px 0px 0px 0px; }
+
+.nav_div {
+  border-bottom: 0.5px solid lightcoral;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  background-color: white; }
+  .nav_div a {
+    color: black; }
+  .nav_div a:hover {
+    background-color: red;
+    color: black; }
+
+.content h5::before {
+  content: "Short "; }
+
+.content span::after {
+  content: " century"; }
+
+.table {
+  margin: 10px 0px 10px 0px; }
+
+.col {
+  background-color: #e8f1ff;
+  border: 0.1px solid lightgrey;
+  text-align: center; }
+
+@media screen and (max-width: 900px) {
+  .col {
+    background-color: lightgoldenrodyellow; }
+  ul > li {
+    text-decoration: underline;
+    color: darkviolet; } }
+
+.div_footer {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  padding: 15px 0px 15px 0px;
+  text-align: center;
+  background-color: bisque; }
+
+/*# sourceMappingURL=style.css.map */
